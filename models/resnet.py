@@ -1,20 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on 18-5-21 下午5:26
-
-@author: ronghuaiyang
-"""
 import torch
 import torch.nn as nn
 import math
 import torch.utils.model_zoo as model_zoo
 import torch.nn.utils.weight_norm as weight_norm
 import torch.nn.functional as F
-
-
-# __all__ = ['ResNet', 'resnet18', 'resnet34', 'resnet50', 'resnet101',
-#            'resnet152']
-
 
 model_urls = {
     'resnet18': 'https://download.pytorch.org/models/resnet18-5c106cde.pth',
